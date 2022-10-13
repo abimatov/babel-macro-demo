@@ -1,8 +1,6 @@
-import codegen from 'babel-plugin-codegen';
-
+import /* codegen(123) */ '../components/codegenDemo';
 
 export default function Home() {
-  const CodegenComponent = codegen.require('../components/codegenDemo');
   return <>
     <CodegenComponent />
   </>;
